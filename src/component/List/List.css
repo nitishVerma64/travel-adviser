@@ -1,0 +1,37 @@
+.List-main{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.list-places{
+    margin-bottom: 15px;
+}
+.list-places>h1{
+    text-align: center;
+}
+
+.list-allList,.list-rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    outline: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 600;
+    background: none;
+    padding: 5px;
+    width: fit-content;
+}
+
+.List-card{
+    height: 70vh;
+    overflow: hidden;
+    overflow-y: scroll;
+}

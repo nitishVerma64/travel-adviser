@@ -1,0 +1,44 @@
+.card-heading{
+    margin-top: 5px;
+}
+
+.card-name-dist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.dist{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 2px 5px;
+    border-radius: 10px;
+    background-color: rgb(58, 131, 234);
+}
+
+.dist>*{
+    color: antiquewhite;
+    text-align: center;
+}
+
+.card-heading>p{
+    margin-top: 5px;
+    text-align: justify;
+    line-height: normal;
+    font-size: small;
+    padding: 0 15px;
+}
+
+.card-content{
+    margin-top: 10px;
+    padding: 0 40px;
+}
+
+.card-content-item{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: space-between; 
+}
