@@ -28,7 +28,7 @@ function App() {
     <>
       <CssBaseline/>
       <Header/>
-      <Grid container spacing={3} style={{width:'100%'}}>
+      <Grid container spacing={2} style={{width:'100%'}}>
         <Grid item xs={12} md={4}>
           <List places={places} />
         </Grid>

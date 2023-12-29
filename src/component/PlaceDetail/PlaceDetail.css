@@ -33,7 +33,8 @@
 
 .card-content{
     margin-top: 10px;
-    padding: 0 40px;
+    padding: 0 30px;
+    
 }
 
 .card-content-item{
@@ -42,3 +43,20 @@
     gap: 25px;
     justify-content: space-between; 
 }
+
+.card-content-cuisine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 5px 0;
+}
+.cuisine{
+    font-size: small;
+    padding: 2px 5px;
+    border-radius: 7px;
+    background-color: rgba(49, 48, 48, 0.284);
+}
+
+
